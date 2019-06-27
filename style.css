@@ -1,0 +1,49 @@
+h1 {
+    color: darkslateblue;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+#top {
+    color: rebeccapurple;
+    font-size: 36px;
+}
+
+#middle {
+    color: blue;
+    font-size: 24px;
+}
+
+#bottom {
+    color: chartreuse;
+    font-size: 12px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+img {
+    border-radius: 25%;
+}
