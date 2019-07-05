@@ -1,0 +1,305 @@
+.header {
+  width:100%;
+  height: 300px;
+}
+
+.menubar {
+  background-color: white;
+  height: 120px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.footer {
+  background-color: rgba(51, 51, 51, 1);
+  width: 100%;
+  height: 532px;
+}
+
+.brand {
+  background-color: rgba(226, 55, 61, 1);
+  width: 100%;
+  height: 183px;
+}
+
+.brand img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+}
+
+.brand p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Segoe UI';
+  color: rgba(255, 255, 255, 1);
+  line-height: 18px;
+}
+
+
+.datenews {
+  height: 67px;
+  width: 100%;
+}
+
+.picnews {
+  background-color: black;
+  height: 348px;
+  width: 100%;
+}
+
+.topic{
+  background-color: white;
+  height: 175px;
+  width: 100%;
+}
+
+.topic p {
+  position: absolute;
+  width: 100%;
+  font-family: 'Segoe UI';
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+}
+
+.detail {
+  background-color: white;
+  height: 511px;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.detail p {
+  position: absolute;
+  height: 511px;
+  font-family: 'Segoe UI';
+  font-size: 25px;
+  color: rgba(78, 78, 78, 1);
+  text-align: left;
+  width:1017px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social {
+  background-color: white;
+  height: 192.51px;
+  width: 100%;
+}
+
+.social li {
+  float: right;
+
+}
+
+.social li a {
+  padding: 18px;
+}
+
+
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+  min-height: 100vh;
+  overflow-x:hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 1017px;
+  height: 1294px;
+  margin-bottom: 84px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgba(0, 0, 0, 1);
+  text-align: leftr;
+  text-decoration: none;
+  padding-right:80px;
+  padding-top: 32px;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+}
+
+.column {
+  float:left;
+  width: 24%;
+  height: 526px;
+  margin-right: 32px;
+
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+.card {
+  background-color: white;
+  height: 521px;
+  border: 1px solid rgba(215, 215, 215, 1);
+  border-radius: 6px;
+}
+
+.piccard {
+  height: 50%;
+  width: 100%;
+
+}
+
+.detailcard {
+  background-color:;
+  height:50%;
+  width: 100%;
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.detailcard h2 {
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+  text-align:center;
+}
+
+.detailcard h3 {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  color: rgba(93, 93, 93, 1);
+  text-align: center;
+
+}
+
+.detailcard p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.detailcard a {
+  text-align: center;
+  margin-left: 25%;
+  margin-bottom: 10
+
+}
+
+
+.seeall {
+  width: 100%;
+  height: 249px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.backbutt {
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  color: rgba(227, 58, 62, 1);
+}
+
+.datenews li {
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  color: rgba(159, 157, 157, 1);
+}
+
+@media screen and (max-width:800px) {
+  .column {
+    width: 75%;
+    margin-left: 12.1%;
+  }
+}
+
+.columnfoot {
+  float:left;
+  height: 532px;
+  margin-left: 6%;
+
+}
+
+.redbold {
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(226, 55, 61, 1);
+  text-align: left;
+}
+
+.cardfoot {
+  background-color:;
+  height: 560px;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.cardfoot a {
+  float: left;
+}
+
+.continent {
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.continent li {
+  float: left;
+
+}
+
+.country {
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.province {
+  font-family: 'Segoe UI';
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.province li {
+  float: inherit;
+}
+
+.country li {
+  float: inherit;
+}
